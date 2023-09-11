@@ -42,3 +42,13 @@ main {
   width: 52rem;
   font-size: 2rem;
 }
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
