@@ -91,3 +91,13 @@ h1 {
   display: block;
   margin-bottom: 3rem;
 }
+
+.check {
+  border: none;
+  background-color: #eee;
+  color: #222;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 2rem 3rem;
+  cursor: pointer;
+}
