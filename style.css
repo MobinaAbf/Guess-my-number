@@ -7,7 +7,7 @@
 }
 
 html {
-  font-size: 62%;
+  font-size: 62.5%;
   box-sizing: border-box;
 }
 
@@ -18,17 +18,17 @@ body {
 }
 
 header {
-  height: 30vh;
   position: relative;
+  height: 35vh;
   border-bottom: 7px solid #eee;
 }
 
 main {
-  height: 70vh;
+  height: 65vh;
   color: #eee;
   display: flex; /*column */
   align-items: center; /*  from top and bottom */
-  justify-content: space-between; /*from left and right sectiom*/
+  justify-content: space-around; /*from left and right sectiom*/
 }
 
 .left {
@@ -106,4 +106,11 @@ h1 {
   background-color: #ccc;
 }
 
+.message {
+  margin-bottom: 8rem;
+  height: 3rem;
+}
 
+.label-score {
+  margin-bottom: 2rem;
+}
