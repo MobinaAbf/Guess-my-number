@@ -17,3 +17,9 @@ body {
   background-color: #222;
 }
 
+header {
+  height: 30vh;
+  position: relative;
+  border-bottom: 7px solid #eee;
+}
+
