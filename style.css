@@ -23,3 +23,11 @@ header {
   border-bottom: 7px solid #eee;
 }
 
+main {
+  height: 70vh;
+  color: #eee;
+  display: flex; /*column */
+  align-items: center; /*  from top and bottom */
+  justify-content: space-between; /*from left and right sectiom*/
+}
+
