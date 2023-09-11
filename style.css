@@ -101,3 +101,9 @@ h1 {
   padding: 2rem 3rem;
   cursor: pointer;
 }
+
+.check:hover {
+  background-color: #ccc;
+}
+
+
