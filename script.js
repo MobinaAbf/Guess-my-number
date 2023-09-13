@@ -13,7 +13,7 @@ document.querySelector(".check").addEventListener("click", function () {
       document.body.style.background = "#4caf50";
       document.querySelector(".number").textContent = num;
     } else {
-      if (score > 0) {
+      if (score > 1) {
         if (num > guess) {
           document.querySelector(".message").textContent = " Too low!";
           score--;
@@ -24,6 +24,7 @@ document.querySelector(".check").addEventListener("click", function () {
           document.querySelector(".score").textContent = score;
         }
       } else {
+        document.querySelector(".score").textContent = 0;
         document.querySelector(".message").textContent = " You lost :(";
         document.body.style.background = "#d92525";
       }
