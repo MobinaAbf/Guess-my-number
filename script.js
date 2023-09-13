@@ -40,7 +40,9 @@ document.querySelector(".again").addEventListener("click", function () {
   document.body.style.background = "#333";
   document.querySelector(".message").textContent = "Start guessing...";
   document.querySelector(".score").textContent = 20;
-
+  num = Math.trunc(Math.random() * 20 + 1);
+  console.log(num);
+  document.querySelector(".number").textContent = "?";
 //   if (score > highScore) {
 //     highScore = score;
 //     document.querySelector(".highscore").textContent = highScore;
