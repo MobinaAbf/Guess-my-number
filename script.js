@@ -38,6 +38,8 @@ document.querySelector(".check").addEventListener("click", function () {
 document.querySelector(".again").addEventListener("click", function () {
   document.querySelector(".guess-num").value = "";
   document.body.style.background = "#333";
+  document.querySelector(".message").textContent = "Start guessing...";
+  document.querySelector(".score").textContent = 20;
 
 //   if (score > highScore) {
 //     highScore = score;
