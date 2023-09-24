@@ -9,8 +9,7 @@ document.querySelector(".check").addEventListener("click", function () {
   const guess = Number(document.querySelector(".guess-num").value);
   if (!guess) {
     document.querySelector(".message").textContent = "No number !";
-  } else {
-    if (num === guess) {
+  } else if (num === guess) {
       document.querySelector(".message").textContent = " Correct Number :)";
       document.body.style.background = "#4caf50";
       document.querySelector(".number").textContent = num;
@@ -19,8 +18,10 @@ document.querySelector(".check").addEventListener("click", function () {
         highScore = score;
         document.querySelector(".highscore").textContent = highScore;
       }
-    } else {
+
+    } else if (guess !== num){
       if (score > 1) {
+
         if (num > guess) {
           document.querySelector(".message").textContent = " Too low!";
           score--;
@@ -36,10 +37,11 @@ document.querySelector(".check").addEventListener("click", function () {
         document.body.style.background = "#d92525";
       }
     }
-  }
+  
 });
 
 document.querySelector(".again").addEventListener("click", function () {
+  
   document.querySelector(".guess-num").value = "";
   document.body.style.background = "#333";
   document.querySelector(".message").textContent = "Start guessing...";
